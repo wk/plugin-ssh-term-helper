@@ -1,16 +1,9 @@
 ![][license-badge]
 
-<div align="center">
-  <a href="http://github.com/oh-my-fish/oh-my-fish">
-  <img width=90px  src="https://cloud.githubusercontent.com/assets/8317250/8510172/f006f0a4-230f-11e5-98b6-5c2e3c87088f.png">
-  </a>
-</div>
-<br>
-
 # ssh-term-helper
 
-[Oh My Fish][omf-link] plugin that overloads the ssh command
-to set a conversative $TERM value
+[Fish][fish-link] function that overloads the ssh command
+to set a conservative $TERM value
 
 Due to inconsistency of 256 color terminal support across
 terminal applications, it may be desirable to force the
@@ -32,8 +25,14 @@ a ssh connection.
 
 ## Install
 
+### With [oh-my-fish][omf-link]
 ```fish
 $ omf install ssh-term-helper
+```
+
+### With [fisherman][fisherman-link]
+```fish
+$ fisher install ssh-term-helper
 ```
 
 ## Usage
@@ -55,6 +54,8 @@ command.
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/wk
 [contributors]:   https://github.com/wk/pkg-ssh-term-helper/graphs/contributors
+[fish-link]:      https://fishshell.com/
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
+[fisherman-link]: https://www.github.com/fisherman/fisherman
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
