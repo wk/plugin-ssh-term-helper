@@ -32,7 +32,7 @@ $ omf install ssh-term-helper
 
 ### With [fisherman][fisherman-link]
 ```fish
-$ fisher install ssh-term-helper
+$ fisher install wk/plugin-ssh-term-helper
 ```
 
 ## Usage
