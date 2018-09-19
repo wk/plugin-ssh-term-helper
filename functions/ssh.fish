@@ -16,6 +16,9 @@ function ssh -d "OpenSSH SSH client (remote login program) with a conservative $
     case xterm-256color
       set -lx TERM xterm
       command ssh $argv
+    case tmux-256color
+      set lx TERM xterm
+      command ssh $argv
     case '*'
       command ssh $argv
   end
