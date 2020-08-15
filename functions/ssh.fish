@@ -13,7 +13,7 @@ function ssh -d "OpenSSH SSH client (remote login program) with a conservative $
     case screen-256color
       set -lx TERM screen
       command ssh $argv
-    case xterm-256color
+    case xterm-256color xterm-termite
       set -lx TERM xterm
       command ssh $argv
     case tmux-256color
